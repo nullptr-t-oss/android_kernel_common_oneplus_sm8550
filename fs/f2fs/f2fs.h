@@ -827,6 +827,7 @@ enum {
 	FI_SNAPSHOT_PREPARED,
 	FI_SNAPSHOTED,
 #endif
+	FI_OPENED_FILE,		/* indicate file has been opened */
 	FI_MAX,			/* max flag, never be used */
 };
 
